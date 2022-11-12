@@ -12,16 +12,20 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 2;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
+    color: #082B59; 
   }
   h1 {
     font-size: 2rem;
     margin-bottom: 0;
+    color: #082B59;
   }
   /* make images flexible */
   img {
     max-width: 100%;
+    border-radius: 10%;
+    }
   }
   a {
     color: #59331d;
@@ -37,7 +41,6 @@ body {
     padding: 0;
     margin: 0;
     list-style-type: none;
-    display: flex;
     flex-flow: row wrap;
     justify-content: center;
   }
@@ -109,6 +112,7 @@ body {
   }
   section {
     background-color: #f2f2f2;
+    padding-bottom: 0.5rem 1rem;
   }
   footer {
     color: #f2f2f2;
@@ -136,7 +140,7 @@ body {
     margin: 0 1rem;
   }
   nav ul {
-    display: block;
+    display: flex;
   }
   nav a {
     margin: 0 0 2rem 0;
