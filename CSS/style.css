@@ -107,6 +107,9 @@ body {
     background-color: #f2f2f2;
     color: #59331d;
   }
+  section {
+    background-color: #f2f2f2;
+  }
   footer {
     color: #f2f2f2;
     text-align: center;
