@@ -14,8 +14,7 @@ body {
   }
   h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
-    color: #082B59; 
-  }
+    color: #082B59; }
   h1 {
     font-size: 2rem;
     margin-bottom: 0;
@@ -69,6 +68,7 @@ body {
   .main-bkgd {
     background: #ffffff url(../images/gulp-bottom-beans.jpg) repeat-x bottom;
     padding-bottom: 300px;
+    border: #082B59 soild; 
   }
   /* sits inside of the white background, centered */
   .main {
@@ -82,19 +82,9 @@ body {
   article {
     flex-basis: 73%;
   }
-  figure {
-    margin: 3rem 0 0 0;
-    flex-basis: 25%;
-    background-color: #59331d;
-    border-radius: 10px;
-  }
   figure img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  figcaption {
-    color: #f2f2f2;
-    padding: 0.5rem;
   }
   .button {
     display: inline-block;
@@ -136,6 +126,10 @@ body {
 /* breakpoint for media */
 
 @media (min-width: 576px) {
+  body {
+    background-image: url(media/images/gulp-bottom-beans);
+    margin:0.5rem;
+  }
   nav {
     margin: 0 1rem;
   }
@@ -147,4 +141,9 @@ body {
     text-align: center;
   }
 }
-@media (min-width: 768px)
+@media (min-width: 768px) {
+  body {
+  background-image: url(media/images/gulp-bottom-beans);
+  margin:0.5rem;
+}
+}
