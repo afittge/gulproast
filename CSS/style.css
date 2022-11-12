@@ -1,4 +1,10 @@
 CSS
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 body {
     background-color: #082B59;
     margin: 0;
@@ -120,3 +126,18 @@ body {
     display: block;
     margin: 0 1rem 3rem 1rem;
   }
+/* breakpoint for media */
+
+@media (min-width: 576px) {
+  nav {
+    margin: 0 1rem;
+  }
+  nav ul {
+    display: block;
+  }
+  nav a {
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+}
+@media (min-width: 768px)
