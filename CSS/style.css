@@ -199,15 +199,31 @@ body {
 body {
   margin:0rem;
 }
-nav ul {
-  display: flex;
-  justify-content: right;
-  margin-bottom: 3.5rem;
+nav {
+  margin-right: 1rem;
 }
-nav .logo img{
+nav ul {
   margin: 0;
+  padding: 0;
   display: flex;
-  text-align: left;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+nav a {
+  padding: 0.5rem 1rem;
+  display: block;
+  margin-top: 3.5rem;
+}
+nav .logo a {
+  background-color: transparent;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  flex-basis: 100%;
+  max-width: 150px;
+  margin-right: auto;
 }
 .container {
   display: flex;
