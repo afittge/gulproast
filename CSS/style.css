@@ -72,7 +72,7 @@ body {
   }
   /* establishes a white background */
   .main-bkgd {
-    background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg
+    background: #ffffff url(../media/images/gulp-bottom-beans.jpg
     ) repeat-x bottom;
     padding-bottom: 300px;
   }
