@@ -9,8 +9,7 @@
       
       ul {
       @include spacing (0,0);
-      display: flex;
-      flex-flow: row wrap;
+      @include display (flex, row wrap);
       justify-content: center;
       }
       li {
@@ -19,8 +18,7 @@
       }
     }
     .container {
-      display: flex;
-      flex-flow: row wrap;
+      @include display (flex, row wrap);
       justify-content: space-between;
     }
     .item {
@@ -31,8 +29,7 @@
       max-width: 1200px;
       margin: 0 auto;
       padding: 2rem;
-      display: flex;
-      flex-flow: row wrap;
+      @include display (flex, row wrap);
       justify-content: space-between;
     }
     figure {

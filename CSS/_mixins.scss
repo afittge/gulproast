@@ -3,3 +3,7 @@
     margin: $margin;
     padding: $padding;
   }
+@mixin display ($display, $flex-flow) {
+  display: $display;
+  flex-flow: $flex-flow;
+}

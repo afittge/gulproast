@@ -79,16 +79,14 @@ html {
       max-width: 1200px;
       margin: 0 auto;
       padding: 1rem;
-      display: flex;
-      flex-flow: row wrap;
+      @include display (flex, row wrap);
       justify-content: space-between;
     }
     .contact-us {
         max-width: 1200px;
         margin: 0 auto;
         padding: 1rem;
-        display: flex;
-        flex-flow: row wrap;
+        @include display (flex, row wrap);
         justify-content: space-between;
     }
     .our-products {
@@ -133,8 +131,7 @@ html {
       ul {
       list-style-type: none;
       @include spacing (0, 0);
-      display: flex;
-      flex-flow: row wrap;
+      @include display (flex, row wrap);
       justify-content: center;
       }
       a {
