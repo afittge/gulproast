@@ -1,0 +1,48 @@
+/*destop */
+@media (min-width: 1025px) {
+    body {
+      margin:0rem;
+    }
+    nav {
+      margin-right: 1rem;
+      
+      ul {
+      @include spacing (0,0);
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-start;
+      gap: 1rem;
+      }
+      a {
+      padding: 0.5rem 1rem;
+      display: block;
+      margin-top: 3.5rem;
+      }
+      .logo a {
+      background-color: transparent;
+      margin: 0;
+      }
+      .logo {
+      display: flex;
+      flex-basis: 100%;
+      max-width: 150px;
+      margin-right: auto;
+      }
+    }
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+    }
+    .item {
+      flex-basis: 30%;
+      margin: 0;
+    }
+    figure {
+      margin: 3rem 0 0 0;
+      flex-basis: 40%;
+      }
+    article {
+      flex-basis: 58%;
+      }
+    }
